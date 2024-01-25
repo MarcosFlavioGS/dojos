@@ -26,7 +26,7 @@
 
 ## Introduction
 
-Welcome to the NestJS Coding Dojo! 🚀 In this session, we'll dive into the wonderful world of [NestJs](https://github.com/nestjs/nest) framework TypeScript starter repository., a powerful and expressive framework for building scalable server-side applications with TypeScript.
+Welcome to the NestJS Coding Dojo! 🚀 In this session, we'll dive into the wonderful world of [NestJs](https://docs.nestjs.com/) framework TypeScript starter repository., a powerful and expressive framework for building scalable server-side applications with TypeScript.
 
 ## What you need to do
 
