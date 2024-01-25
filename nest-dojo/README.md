@@ -28,6 +28,26 @@
 
 Welcome to the NestJS Coding Dojo! 🚀 In this session, we'll dive into the wonderful world of [NestJs](https://github.com/nestjs/nest) framework TypeScript starter repository., a powerful and expressive framework for building scalable server-side applications with TypeScript.
 
+## What you need to do
+
+For this Dojo, you need to create a simple REST web API for users using NestJs. Each user request and response bodies must be on the following json format:
+{ 
+  userName: string,
+  email: string,
+  passWord: string
+}
+
+- The API must be able to create, get, update and delete an user. The users data must be stored locally in a file, but feel free to experiment on using a DataBase library like TypeoORM.
+
+- The API will receive http requests and it must send responses: 
+ - create: send a *created* http response with the user data in json format.
+
+ - get: if the user is found, returns the user. If not, returns a *not found* http response.
+
+ - update:  if the user is found, updates it and returns the updated user. If not found, returns the *not found* response.
+
+ - delete: simply deletes an user if it exists.
+
 ## What is NestJs ?
 
 NestJS is a progressive Node.js framework designed for building efficient, reliable, and maintainable server-side applications. It combines the best features of JavaScript and TypeScript, making it a go-to choice for developers aiming for both productivity and scalability.
@@ -59,7 +79,15 @@ $ git clone git@github.com:MarcosFlavioGS/dojos.git
 Make sure you have npm installed in your system
 
 ``` bash
-curl
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+$ nvm install node
+
+$ nvm install npm
+
+# update npm globally
+$ npm install -g npm
+
 ```
 
 Install dependencies
